@@ -1,0 +1,67 @@
+{
+    "tiles": [
+    {
+        "color": "FFFF00",
+        "type": "enemy",
+        "isSolid": false,
+        "sprite": "floor01_PLACEHOLDER",
+        "heat": 0
+    },
+    {
+        "color": "FF7700",
+        "type": "barrel",
+        "isSolid": true,
+        "sprite": "barrel01_PLACEHOLDER",
+        "heat": 0
+    },
+    {
+        "color": "00FFFF",
+        "type": "space",
+        "isSolid": true,
+        "sprite": "none",
+        "heat": -1
+    },
+    {
+        "color": "000000",
+        "type": "wall",
+        "isSolid": true,
+        "sprite": "wall01_PLACEHOLDER",
+        "heat": 0
+    },
+    {
+        "color": "FFFFFF",
+        "type": "floor",
+        "isSolid": false,
+        "sprite": "floor01_PLACEHOLDER",
+        "heat": 0
+    },
+    {
+        "color": "FF00FF",
+        "type": "door",
+        "isSolid": true,
+        "sprite": "door01_PLACEHOLDER",
+        "heat": 0
+    },
+    {
+        "color": "FF0000",
+        "type": "boiler",
+        "isSolid": true,
+        "sprite": "boiler01_PLACEHOLDER",
+        "heat": 100
+    },
+    {
+        "color": "00FF00",
+        "type": "chest",
+        "isSolid": true,
+        "sprite": "chest01_PLACEHOLDER",
+        "heat": 0
+    },
+    {
+        "color": "0000FF",
+        "type": "spawn",
+        "isSolid": false,
+        "sprite": "spawn01_PLACEHOLDER",
+        "heat": 0
+    }
+    ]
+}

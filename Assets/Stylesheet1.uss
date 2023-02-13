@@ -1,0 +1,8 @@
+.progressbar1 {
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    rotate: -90deg;
+    width: 50px;
+    height: 12px;
+}

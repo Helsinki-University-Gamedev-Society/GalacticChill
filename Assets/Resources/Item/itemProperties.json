@@ -1,0 +1,76 @@
+{
+    "items": [
+    {
+        "itemID": "1",
+        "name": "Spoon",
+        "description": "Spoooooon!",
+        "sprite": "spoon_PLACEHOLDER",
+    },
+    {
+        "itemID": "2",
+        "name": "Fork",
+        "description": "I'm sure this is valuable.",
+        "sprite": "fork_PLACEHOLDER",
+    },
+    {
+        "itemID": "3",
+        "name": "Plate set",
+        "description": "People eat off of these.",
+        "sprite": "plate_PLACEHOLDER",
+    },
+    {
+        "itemID": "4",
+        "name": "Nugget of ... gold",
+        "description": "Worth its weight.",
+        "sprite": "nugget_PLACEHOLDER",
+    },
+    {
+        "itemID": "5",
+        "name": "Spork",
+        "description": "May the spork be with you.",
+        "sprite": "spork_PLACEHOLDER",
+    },
+    {
+        "itemID": "6",
+        "name": "Utility",
+        "description": "Does something.",
+        "sprite": "utility_PLACEHOLDER",
+    },
+    {
+        "itemID": "7",
+        "name": "Medkit",
+        "description": "An assortment of equipment for healing.",
+        "sprite": "medkit_PLACEHOLDER",
+    },
+    {
+        "itemID": "8",
+        "name": "Bandage",
+        "description": "Stops the bleeding.",
+        "sprite": "bandage_PLACEHOLDER",
+    },
+    {
+        "itemID": "9",
+        "name": "Scrap metal",
+        "description": "No one's going to miss this!",
+        "sprite": "scrap_PLACEHOLDER",
+    },
+    {
+        "itemID": "10",
+        "name": "Energy cell",
+        "description": "The ship could use this.",
+        "sprite": "energy_PLACEHOLDER",
+    },
+    {
+        "itemID": "11",
+        "name": "Energy drink",
+        "description": "Oispa ES.",
+        "sprite": "drink_PLACEHOLDER",
+    },
+    {
+        "itemID": "12",
+        "name": "Piece of gum",
+        "description": "Goes nicely with teeth",
+        "sprite": "gum_PLACEHOLDER",
+    }
+    ]
+}

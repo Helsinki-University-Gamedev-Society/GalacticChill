@@ -1,0 +1,13 @@
+.GridElement {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(101, 56, 56, 255);
+    border-left-color: rgba(115, 115, 115, 255);
+    border-right-color: rgba(115, 115, 115, 255);
+    border-top-color: rgba(115, 115, 115, 255);
+    border-bottom-color: rgba(115, 115, 115, 255);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}

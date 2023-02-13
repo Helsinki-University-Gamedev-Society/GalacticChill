@@ -1,0 +1,66 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/ShipInventoryGrid.uss?fileID=7433441132597879392&amp;guid=1c9b98f8c4e46d74aa98c98cd6738947&amp;type=3#ShipInventoryGrid" />
+    <ui:VisualElement name="Row1" style="flex-direction: row;">
+        <ui:VisualElement name="Grid11" class="GridElement" />
+        <ui:VisualElement name="Grid12" class="GridElement" />
+        <ui:VisualElement name="Grid13" class="GridElement" />
+        <ui:VisualElement name="Grid14" class="GridElement" />
+        <ui:VisualElement name="Grid15" class="GridElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Row2" style="flex-direction: row;">
+        <ui:VisualElement name="Grid21" class="GridElement" />
+        <ui:VisualElement name="Grid22" class="GridElement" />
+        <ui:VisualElement name="Grid23" class="GridElement" />
+        <ui:VisualElement name="Grid24" class="GridElement" />
+        <ui:VisualElement name="Grid25" class="GridElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Row3" style="flex-direction: row;">
+        <ui:VisualElement name="Grid31" class="GridElement" />
+        <ui:VisualElement name="Grid32" class="GridElement" />
+        <ui:VisualElement name="Grid33" class="GridElement" />
+        <ui:VisualElement name="Grid34" class="GridElement" />
+        <ui:VisualElement name="Grid35" class="GridElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Row4" style="flex-direction: row;">
+        <ui:VisualElement name="Grid41" class="GridElement" />
+        <ui:VisualElement name="Grid42" class="GridElement" />
+        <ui:VisualElement name="Grid43" class="GridElement" />
+        <ui:VisualElement name="Grid44" class="GridElement" />
+        <ui:VisualElement name="Grid45" class="GridElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Row5" style="flex-direction: row;">
+        <ui:VisualElement name="Grid51" class="GridElement" />
+        <ui:VisualElement name="Grid52" class="GridElement" />
+        <ui:VisualElement name="Grid53" class="GridElement" />
+        <ui:VisualElement name="Grid54" class="GridElement" />
+        <ui:VisualElement name="Grid55" class="GridElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Row6" style="flex-direction: row;">
+        <ui:VisualElement name="Grid61" class="GridElement" />
+        <ui:VisualElement name="Grid62" class="GridElement" />
+        <ui:VisualElement name="Grid63" class="GridElement" />
+        <ui:VisualElement name="Grid64" class="GridElement" />
+        <ui:VisualElement name="Grid65" class="GridElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Row7" style="flex-direction: row;">
+        <ui:VisualElement name="Grid71" class="GridElement" />
+        <ui:VisualElement name="Grid72" class="GridElement" />
+        <ui:VisualElement name="Grid73" class="GridElement" />
+        <ui:VisualElement name="Grid74" class="GridElement" />
+        <ui:VisualElement name="Grid75" class="GridElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Row8" style="flex-direction: row;">
+        <ui:VisualElement name="Grid81" class="GridElement" />
+        <ui:VisualElement name="Grid82" class="GridElement" />
+        <ui:VisualElement name="Grid83" class="GridElement" />
+        <ui:VisualElement name="Grid84" class="GridElement" />
+        <ui:VisualElement name="Grid85" class="GridElement" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Row9" style="flex-direction: row;">
+        <ui:VisualElement name="Grid91" class="GridElement" />
+        <ui:VisualElement name="Grid92" class="GridElement" />
+        <ui:VisualElement name="Grid93" class="GridElement" />
+        <ui:VisualElement name="Grid94" class="GridElement" />
+        <ui:VisualElement name="Grid95" class="GridElement" />
+    </ui:VisualElement>
+</ui:UXML>

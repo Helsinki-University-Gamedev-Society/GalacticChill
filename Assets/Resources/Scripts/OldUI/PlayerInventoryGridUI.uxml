@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/PlayerInventoryGrid.uss?fileID=7433441132597879392&amp;guid=18224c4c1c445104da88e786cbdc24e6&amp;type=3#PlayerInventoryGrid" />
+    <ui:VisualElement name="Player-">
+        <ui:VisualElement name="Row1" style="flex-direction: row;">
+            <ui:VisualElement name="Grid11" class="GridElement" />
+            <ui:VisualElement name="Grid12" class="GridElement" />
+            <ui:VisualElement name="Grid13" class="GridElement" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Row2" style="flex-direction: row;">
+            <ui:VisualElement name="Grid21" class="GridElement" />
+            <ui:VisualElement name="Grid22" class="GridElement" />
+            <ui:VisualElement name="Grid23" class="GridElement" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Row3" style="flex-direction: row;">
+            <ui:VisualElement name="Grid31" class="GridElement" />
+            <ui:VisualElement name="Grid32" class="GridElement" />
+            <ui:VisualElement name="Grid33" class="GridElement" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PlayerInventoryGridUI" src="project://database/Assets/Resources/Scripts/PlayerInventoryGridUI.uxml?fileID=9197481963319205126&amp;guid=d31238d3f51b5c243b6cb8ddb62cc6c1&amp;type=3#PlayerInventoryGridUI" />
+    <ui:Template name="ShipInventoryUI" src="project://database/Assets/Resources/Scripts/ShipInventoryUI.uxml?fileID=9197481963319205126&amp;guid=8c8b2b8a87b0378498db20b46ad5963b&amp;type=3#ShipInventoryUI" />
+    <Style src="project://database/Assets/Scenes/PlayerInventory.uss?fileID=7433441132597879392&amp;guid=6331e80752c23684bb0af71aa1020ebc&amp;type=3#PlayerInventory" />
+    <ui:VisualElement name="InventoryUI" style="flex-direction: row; align-items: center; justify-content: center; background-color: rgba(70, 70, 70, 255);">
+        <ui:VisualElement name="Players" style="height: auto; flex-wrap: nowrap;">
+            <ui:VisualElement name="Player0" style="flex-direction: row;">
+                <ui:VisualElement name="PlayerInfo" />
+                <ui:VisualElement name="PlayerInventory">
+                    <ui:Instance template="PlayerInventoryGridUI" name="PlayerInventoryGridUI" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Player1">
+                <ui:VisualElement name="PlayerInventory">
+                    <ui:Instance template="PlayerInventoryGridUI" name="PlayerInventoryGridUI" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PlayerInfo" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Player2">
+                <ui:VisualElement name="PlayerInfo" />
+                <ui:VisualElement name="PlayerInventory">
+                    <ui:Instance template="PlayerInventoryGridUI" name="PlayerInventoryGridUI" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Ship" style="align-items: center; justify-content: center; flex-direction: row; width: auto;">
+            <ui:VisualElement name="ShipInventory" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+                <ui:Instance template="ShipInventoryUI" name="ShipInventoryUI" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ShipInfo">
+                <ui:VisualElement name="ShipImage" style="background-image: resource(&apos;ship&apos;); width: 100px; height: 200px; -unity-background-scale-mode: stretch-to-fill; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
